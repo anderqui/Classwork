@@ -18,6 +18,10 @@ function getInfo(){
    userName= $("#userName").val();
 }
 
+function getInfo(){
+    userName= $("#dig").val();
+ }
+ 
 function showInfo(){
     getInfo();
     var message= "Hello " +userName +", glad to meet you!";
