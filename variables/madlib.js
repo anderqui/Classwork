@@ -8,9 +8,18 @@ var nounDos;
 var nounTres;
 var nounQuatro;
 var nounCinco;
-var
+var verbAlpha;
+var verbBeta;
+var adverbAlpha;
+var adjectiveAlpha;
+var adjectiveBeta;
 
 function getInfo(){
-    noun
+    nounUno=$("#")
+    nounDos=$("#") 
+    nounTres=$("#") 
+    nounQuatro=$("#") 
+    nounCinco=$("#") 
+    
 
 }
