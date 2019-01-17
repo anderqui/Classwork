@@ -15,11 +15,24 @@ var adjectiveAlpha;
 var adjectiveBeta;
 
 function getInfo(){
-    nounUno=$("#")
-    nounDos=$("#") 
-    nounTres=$("#") 
-    nounQuatro=$("#") 
-    nounCinco=$("#") 
+    nounUno=$("#nounUno").val();
+    nounDos=$("#nounDos").val();
+    nounTres=$("#nounTres").val();
+    nounQuatro=$("#nounQuatro").val();
+    nounCinco=$("#nounCinco").val();
+    verbAlpha=$("#verbAlpha").val();
+    verbBeta=$("#verbBeta").val();
+    adverbAlpha=$("#adverbAlpha").val();
+    adjectiveAlpha=$("#adjectiveAlpha").val();
+    adjectiveBeta=("#adjectiveBeta").val();
     
 
 }
+ function showInfo(){
+getInfo();
+var message =""+ +""
+
+
+
+
+ }

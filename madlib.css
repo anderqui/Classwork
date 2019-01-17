@@ -1,0 +1,19 @@
+body{
+    background-color:  #57613d;
+    
+}
+.container{
+    text-align: center;
+    margin:auto;
+    width: 35%;
+    height: 550px;
+}
+.container input{
+    width:40%;
+    clear:both;
+    margin:auto;
+  
+}
+.container label{
+    display: block;
+}
