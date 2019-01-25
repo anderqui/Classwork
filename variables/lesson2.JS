@@ -3,12 +3,11 @@
 $(document).ready(function(){
 
     $("#add").click(function(){
-    
-        wrong();
+        add();
     });
     $("#divide").click(function(){
     
-        RIght();
+        divide();
               
     })
     $("#Modulus").click(function(){
@@ -22,6 +21,15 @@ $(document).ready(function(){
         time();
               
     })
+     $("sumDigits").click(function(){
+    
+        sumDigits();
+      $("#pow").click(function(){
+    
+        pow();
+      $("squrt").click(function(){
+    
+        sqrt();
 });
 
 /** 
@@ -35,11 +43,11 @@ $(document).ready(function(){
     $("#output").text( message+" all information form the user is considered String datatype. The "+"").show()
  }
 */
- var add =function (){
-     var x =$("#number1").val();
-     var y=$("#number2").val();
-     x=parseInt(x);
-     y=parseInt(y);
+ var add = function (){
+     var x = $("#number1").val();
+     var y = $("#number2").val();
+     x = parseInt(x);
+     y = parseInt(y);
  var sum = x + y;
  var message= x + " + "+ y + " = "+ sum;
  $("#output").text(message +"     all information......")
