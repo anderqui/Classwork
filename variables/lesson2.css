@@ -1,13 +1,15 @@
 fieldset{ 
     width:600px;
     margin:auto;
+    text-align: center;
 }
 label{ widows: 15em;
 float: left;
 clear:left;
-text-align: center;
+text-align: right;
 padding-right: 1em;}
-input{ float: right;}
+input{ float: right;
+}
 #output{
     text-align: center;
     display: none;
@@ -15,10 +17,7 @@ input{ float: right;}
     top:600px;
 
 }
-button{
-    display: inline-block;
-    margin:  auto;
-}
-body{
-    font: 24px;
+body
+{
+     font: 24px
 }
