@@ -83,7 +83,7 @@ var time = function (){
   hoursRemaining=hour%60;
   day= Math.floor(input/24);
 
-  $("#output").text(input +  " seconds is equal to " + days + "days," +  hoursRemaining+ "hours,"+ minutesRemaining + " minutes," secondsRemaining +" second,"); 
+  $("#output").text(input +  " seconds is equal to " + days + "days," +  hoursRemaining+ "hours,"+ minutesRemaining + " minutes,"  + " second,"); 
 
 
 

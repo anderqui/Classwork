@@ -30,7 +30,7 @@ function getInfo(){
 }
  function showInfo(){
 getInfo();
-var message =""+ +""
+var message =" Today ashley went"+ nounUno +"and wanted to take" +nounDos + "out on a ride around town. But  ealier  that week they were going to the hogwarts school but" + nounTres + "was" +verbAlpha+ "which made ashley and"+ nounUno+ adjectiveAlpha+"which in  then made jeff the town squire very sick and"+ adjectiveBeta + "causing confusion which made" + nounQuatro + " want to help but by then " + nounDos + " wanted to go home and glared at jeff"+ adverbAlpha
 
 
 
