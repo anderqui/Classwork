@@ -1,6 +1,8 @@
 $(document).ready(function () {
+
     $("#button").click(function () {
-        calculateMidpoint();
+
+        output();
     })
 });
 var calculateMidpoint = function () {
@@ -20,7 +22,7 @@ var midpoint = function (x1, y1, x2, y2) {
     var midpointX = (x1 + y1) / 2;
     var midpointY = (x2 + y2) / 2;
 
-    $("#output").append("the midpoint is:(" + midpointX + "," + midpointX + ")");
+    $("#output").append("the midpoint is:(" + midpointX + "," + midpointX + ")" );
 
 }
 var input = function (a) {
@@ -31,7 +33,7 @@ var input = function (a) {
 }
 var output = function () {
 
-    var userinput = input("#input1")
+ 
 
-    $("#outpit").text(userinput);
+    $("#output").text(input("#intput1"));
 }
