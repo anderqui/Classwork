@@ -96,14 +96,3 @@ var time = function (){
 
 
 }
-var sumDigits = function(){
-var input= $("#number3").val();
-var digit1 =  input%10;
-var digit2 = (Math.floor(input/10))%10;
-var digit3 = (Math.floo(input/100))%10;
-
-
-
-
-}
-var
