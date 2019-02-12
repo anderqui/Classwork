@@ -93,6 +93,6 @@ var time = function (){
 
   $("#output").text(input +  " seconds is equal to " + days + "days," +  hoursRemaining+ "hours,"+ minutesRemaining + " minutes,"  + " second,"); 
 
-
-
 }
+
+
