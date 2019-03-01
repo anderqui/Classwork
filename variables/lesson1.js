@@ -17,14 +17,13 @@ var userName;
 function getInfo(){
    userName= $("#userName").val();
 }
-
 function getInfo(){
-    userName= $("#dig").val();
- }
+userName= $("#userName").val();
+}
  
 function showInfo(){
     getInfo();
-    var message= "Hello " +userName +", glad to meet you!";
+    var message= "Hello " + userName +", glad to meet you!";
     
   $("#output").text(message).fadeIn("slow").animate({"top":"0px"},"slow");
   $("#output").text(message).show().animate({"top":"0px", "opacity":"1"},"slow");

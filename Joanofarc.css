@@ -1,0 +1,12 @@
+body {
+    background: lightblue;
+  }
+  
+  button {
+    font-family: 'Lobster', cursive;
+    font-size: 1em;
+  }
+  img{
+     height: 45%;
+     width: 55%;
+  }

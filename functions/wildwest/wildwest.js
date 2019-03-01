@@ -3,13 +3,13 @@ var hasPhaser = false;
 
 
 $(document).ready(function () {
-    $("footer").html(createButton("#button1", O1) + createButton("button2", O2) + createButton("button3", "not used"));
+    $("footer").html(createButton("#button1", O1) + createButton("#button2", O2) + createButton("#button3", "not used"));
     $("#button3").hide();
 
     $("#button1").click(function () {
         if ($("#button1").text() === O1) {
             updateNarrtive(N2);
-            updateButtons(O3,O4,O5);
+            updateButtons(O3, O4, O5);
             $("#button1").text(O3)
             $("#button2").text(O4)
             $("#button3").text(O5)
@@ -25,8 +25,8 @@ $(document).ready(function () {
             updateNarrtive("Did not get bow.")
         }
 
-        $("button2").click(function () {
-            if ($("#button2").text() === O2) {
+        $("#button2").click(function () {
+            if ($("#button2").text() === O2 && hasPhaser === true) {
                 updateNarrtive(N3);
                 $("#button1").text(O6);
                 $("#button2").text(O7);
@@ -38,7 +38,7 @@ $(document).ready(function () {
                 $("#button2").text("runs to targt practice")
 
             }
-            else if ($("button2").text() === O7) {
+            else if ($("#button2").text() === O7) {
                 updateNarrtive(N6);
                 $("#button2").text(O82);
                 $("#button1").hide();
@@ -46,14 +46,14 @@ $(document).ready(function () {
 
             }
 
-            $("button3").click(function () {
-                if ($("button2").text() === O4) {
+            $("#button3").click(function () {
+                if ($("#button2").text() === O4) {
                     updateNarrtive(N2);
                     $("#button1").text(O4);
                     $("#button2").text(O7);
 
                 }
-                else if ($("button2").text() === O5) {
+                else if ($("#button2").text() === O5) {
                     updateNarrtive(N1);
                     $("#button2").text(O6);
                     $("#button1").hide();
@@ -82,16 +82,16 @@ $(document).ready(function () {
 
             $("article").text(a);
         }
-        var updateButtons = function(a ,b , c){
+        var updateButtons = function (a, b, c) {
             $("#button1").text(a);
             $("#button2").text(b);
             $("#button3").text(c);
         }
 
-        
+
 
         var createButton = function (id, text) {
-            return "<button type= button id=" + id + ">" + text + "</button>"
+            return "<button type=button id=" + id + ">" + text + "</button>"
 
         }
     });
