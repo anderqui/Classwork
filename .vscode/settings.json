@@ -1,0 +1,5 @@
+{
+    "liveServer.settings.useWebExt": true,
+    "phpserver.port": 5500,
+    "phpserver.ip": "127.0.0.1"
+}
